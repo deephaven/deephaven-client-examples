@@ -33,7 +33,10 @@ $ ./example
 
 ## Go
 
-First, ensure you have the Go client present somewhere (checking out the `go-client-api` branch will suffice).
+First, ensure you have the Go client present somewhere.
+Since the Go client has not yet been officially released,
+this requires checking out the `go-client-api` branch of
+[this fork](https://github.com/SuperTails/deephaven-core).
 
 Then, edit `./go/go.mod` where indicated to set the correct path for the client library.
 
